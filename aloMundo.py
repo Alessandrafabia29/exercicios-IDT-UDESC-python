@@ -1,0 +1,17 @@
+print('-='*10,'\033[34mPROGRAMA DE INÍCIO\033[m','-='*10)
+print('ALÔ MUNDO!!!HELLO WORLD!!!')
+print('-='*10,'\033[34mPROGRAMA DE INÍCIO\033[m','-='*10)
+num = int(input('Informe um número: '))
+print(f'O número informado foi {num}.')
+print('-='*10,'\033[34mPROGRAMA DE INÍCIO\033[m','-='*10)
+num1 = int(input('Informe o primeiro número:'))
+num2 = int(input('Informe o segundo número:'))
+soma = num1 + num2
+print(f'A soma entre {num1} e {num2} é {soma}')
+print('-='*10,'\033[34mPROGRAMA NOTAS\033[m','-='*10)
+n1 =float(input('Informe a primeira nota: '))
+n2 = float(input('Informe a segunda nota: '))
+n3 = float(input('Informe a terceira nota: '))
+n4 = float(input('Informe a quarta nota: '))
+media = (n1+n2+n3+n4)/4
+print(f' \033[31mMédia Bimestral\033[m {media}')
